@@ -10,4 +10,9 @@ class HelloSpringBootApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void applicationStarts() {
+		HelloSpringBootApplication.main(new String[] {});
+	}
+
 }
